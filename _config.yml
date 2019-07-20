@@ -1,2 +1,3 @@
 name: The Blog of Ben Cousins | Entrepreneur, Gunzel, Lost.
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
