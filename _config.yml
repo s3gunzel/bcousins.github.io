@@ -1,3 +1,14 @@
-name: The Blog of Ben Cousins | Entrepreneur, Gunzel, Lost.
+name: The Blog of Ben Cousins | Austistic. Entrepreneur. Train Lover. Lost.
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+collections:
+  staff_members:
+    output: true
+  drafts:
+    output: true
+defaults:
+    scope:
+      path: ""
+      type: drafts
+    values:
+      layout: draft
