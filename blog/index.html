@@ -1,11 +1,13 @@
 ---
 layout: default
-title: The Blog of Ben Cousins
+title: Asperger Media Blog | Autistic. Information Tech.
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+<div id="mini-hero-unit">
+    <h1>{{ page.title }}</h1>
+</div>
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<ul class="posts">
+	{% for post in site.posts %}
+	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>

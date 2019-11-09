@@ -1,0 +1,710 @@
+/*
+    bdcidau.css
+    Ben Cousins Blog
+    Ben Cousins © 2019
+*/
+
+/*
+ Global styles
+ */
+
+ body{
+    margin:0px!important;
+}
+/*
+ Header styles
+ */
+
+#header{
+    width:80%;
+    max-width:1150px;
+    height:75px;
+    margin:0 auto;
+    margin-top:6px;
+}
+
+#header #bdc-logo {
+    width:80%;
+    line-height: 48px;
+    float:left;
+    background-image: url(/static/img/bencousinstransp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'open sans', sans-serif;
+}
+
+#header #bdc-logo h1{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#header #user-links {
+    width:40%;
+    float:right;
+    text-align:right;
+    font-family: 'century-gothic', sans-serif;
+    font-size: 14pt;
+    margin-top:25px;
+    margin-right: 100px!important;
+    color: #000;
+}
+
+#header #user-links a {
+    color:#000;
+    text-decoration:none;
+}
+
+#header #user-links a:visited {
+    color:#000;
+    text-decoration:none;
+}
+
+#header #user-links a:hover {
+    color:#000;
+    text-decoration:underline;
+}
+
+#logo{
+    max-height:180px!important;
+}
+
+/*
+ Navigation styles
+ */
+
+#nav{
+    width:100%;
+    height:60px;
+    margin-left:0px;
+    background-color:#3100bd;
+    color:#fff;
+    overflow:hidden;
+    position:absolute;
+    top:81px;
+}
+
+#nav-actual{
+    width:83%;
+    max-width:1190px;
+    margin: 0 auto;
+}
+
+#nav #nav-actual li{
+    list-style-type:none;
+    margin-top:0px;
+}
+
+#nav #nav-actual li a{
+    padding:17px;
+    color: #fff;
+    font-size:16pt;
+    display: block;
+    text-decoration:none;
+    float:left;
+    font-family: 'century-gothic', sans-serif;
+}
+
+#nav #nav-actual a:hover{
+    background-color:#3100BC
+}
+
+#mobinav{
+    display:none;
+}
+
+/*
+ Body styles
+ */
+
+#body{
+    width:80%;
+    max-width:1150px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+
+#body .heading{
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+ Hero Unit
+ */
+
+#body #hero-unit {
+    margin-top:0px;
+    height:220px;
+    background: #aaa!important;
+}
+
+#body #hero-unit h1{
+    font-family: 'century-gothic', sans-serif;
+    text-align: center;
+    border-top: 100px;
+    margin-top: 50px;
+    color: #fff;
+    float: left;
+    width: 100%;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#body #hero-unit h3{
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+    border-top: 100px;
+    margin-top: 0px;
+    color: #fff;
+    float: left;
+    width: 100%;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#body #mini-hero-unit {
+    background-color: #666;
+    background-position: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    box-shadow: 0 1px 1px #666;
+    color: white;
+}
+
+#body #mini-hero-unit h1{
+    text-align:left;
+    padding: 20px;
+    font-family: 'century-gothic', sans-serif;
+    color:#fff;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/*
+    Index Page Styling
+*/
+
+.section-light{
+    margin-top:0px;
+    border-top:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+h2{
+    font-family: 'century-gothic', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+.half{
+    width:50%;
+    float:left;
+}
+
+.half h4{
+    font-family: 'open sans', sans-serif;
+    text-align:center;
+}
+
+.half p{
+    padding:10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.half ul li{
+    font-family: Helvetica, sans-serif;
+}
+
+.half .image{
+    width: 80%;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3px;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: 103%!important;
+    margin: 0 auto;
+}
+
+/* 
+    Team Item
+*/
+
+.team-item{
+    width: 100%;
+}
+
+.team-item .team-image{
+    width: 30%;
+}
+
+.team-item .team-image img{
+    height: 235px;
+    width: 230px;
+    border-radius: 125px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.team-item .team-info{
+    width: 53%;
+    float: left;
+    padding: 10%;
+    margin-top: -80px;
+}
+
+
+.team-info h2{
+    text-align: left!important;
+}
+
+.team-info h4{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.team-info p a{
+    color: #00f;
+    text-decoration: none;
+}
+
+.team-info p a:visited{
+    color: #00f;
+    text-decoration: none;
+}
+
+.team-info p a:hover{
+    color: #00f;
+    text-decoration: underline;
+}
+
+/*
+ Footer styles
+ */
+
+#footer{
+    width:80%;
+    max-width:1150px;
+    margin: 0 auto;
+}
+
+#footer #links{
+    width: 60%;
+}
+
+#footer #links dl{
+    width:27.5%;
+    float:left;
+}
+
+#footer #links dl dt{
+    font-family: 'century-gothic', sans-serif;
+    font-size:12pt;
+}
+
+#footer #links dl dt.top-padding{
+    margin-top:15px;
+}
+
+#footer #links dl dd{
+    list-style-type:none;
+    margin-left:10px;
+}
+
+#footer #links dl dd a{
+    font-family: 'century-gothic', sans-serif;
+    text-decoration:none;
+    font-size:10pt;
+}
+
+#footer #links dl dd a:hover{
+    font-family: 'century-gothic', sans-serif;
+    text-decoration:underline;
+}
+
+#footer #links dt dd a:visited{
+    font-family: 'century-gothic', sans-serif;
+    color:inherit;
+}
+
+#footer #copyright dl{
+    width:40%;
+    float:right;
+}
+
+#footer #copyright dl dt{
+    font-size:12pt;
+    font-family: 'century-gothic', sans-serif;
+    text-align:right;
+}
+
+#footer #copyright dl dt.top-padding{
+    margin-top:15px;
+}
+
+#footer #copyright dl dd{
+    list-style-type:none;
+    margin-left:10px;
+    font-family: 'century-gothic', sans-serif;
+    text-align:right;
+    font-size:10pt;
+}
+
+#footer #copyright dl dd a{
+    text-decoration:none;
+    color: #000;
+}
+
+#footer #copyright dl dd a:hover{
+    text-decoration:underline;
+    color: #00f;
+}
+
+#footer #copyright dt dd a:visited{
+    color:inherit;
+    color:#000
+}
+
+/*
+ Responsive hacks
+ */
+
+/*
+ iPad Pro 12.5" Portrait
+ */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #header #user-links{
+        margin-top:-43px;
+        margin-right: 81px!important;
+    }
+    
+    #nav-actual{
+        width:84%!important;
+    }
+    
+    #body #todays-highlights .news-items .news-card{
+        width:40%!important;
+        padding:40px!important;
+        padding-bottom: 60px!important;
+    }
+
+    #body .team-item{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    #body .team-item .team-image{
+        width: 100%;
+    }
+
+    #body .team-item .team-image img{
+        margin-left: 140px;
+        margin-top: 30px;
+    }
+
+    #body .team-item .team-info{
+        width: 100%;
+        padding: none;
+        margin-top: -20px;
+    }
+    
+    #footer{
+        width:95%;
+    }
+    
+    #footer #links dl{
+        width:22%;
+        float:left;
+        padding: 6px;
+        padding-top:0px;
+    }
+    
+    #footer #links dl dt{
+        font-size:14pt;
+    }
+    
+    #footer #copyright dl{
+        width:40%;
+        float:right;
+    }
+}
+
+
+/*
+iPad Pro 12.5" Landscape
+ */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+   #header #user-links{
+        /*margin-top:-43px;*/
+        margin-right: 81px!important;
+    }
+    
+    #body #todays-highlights .news-items .news-card{
+        width:40%!important;
+        padding:40px!important;
+        padding-bottom: 60px!important;
+    }
+}
+
+/*
+ Other iPad Portrait
+ */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #header #user-links{
+        margin-top:20px;
+        margin-right: 81px!important;
+    }
+    
+    #body #todays-highlights .news-items .news-card{
+        width:40%!important;
+        padding:32px!important;
+        padding-bottom: 80px!important;
+    }
+}
+
+/*
+ Other iPad Landscape
+ */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #header #user-links{
+        /*margin-top:-43px;*/
+        margin-right: 81px!important;
+    }
+    
+    #body #todays-highlights .news-items .news-card{
+        width:40%!important;
+        padding:40px!important;
+        padding-bottom: 60px!important;
+    }
+}
+
+/*
+ iPad Mini
+ Portrait
+ */
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {
+    #header #user-links {
+        margin-top: -43px;
+    }
+
+    #body .team-item{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #body .team-item .team-image{
+        width: 100%;
+    }
+
+    #body .team-item .team-image img{
+        margin-left: 195px;
+        margin-top: 30px;
+    }
+
+    #body .team-item .team-info{
+        width: 100%;
+        padding: 0px;
+        margin-top: -5px;
+    }
+
+    #footer #links{
+        display: none!important;
+    }
+    
+    #footer #copyright dl{
+        width:100%!important;
+        float:none!important;
+        text-align:right;
+    }
+}
+
+/*
+ iPad Mini
+ Landscape
+ */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1)  {
+
+    #body .team-item{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    #body .team-item .team-image{
+        width: 100%;
+    }
+
+    #body .team-item .team-image img{
+        margin-left: 145px;
+        margin-top: 30px;
+    }
+
+    #body .team-item .team-info{
+        width: 100%;
+        padding: 0px;
+        margin-top: -5px;
+    }
+    
+    #footer #links{
+        display: none!important;
+    }
+    
+    #footer #copyright dl{
+        width:100%!important;
+        float:none!important;
+        text-align:right;
+    }
+}
+
+/*
+ Phone views
+ */
+@media screen and (max-width: 500px) {
+    body{
+        /*max-width: 100%!important;*/
+        margin: 0px!important;
+    }
+    
+    #header{
+        display:none;
+    }
+
+    #nav{
+        display:none;
+    }
+
+    .mobinav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+      
+    .mobinav #myLinks {
+        display: none;
+    }
+    
+    .mobinav a {
+        color: white;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        font-family: 'century-gothic';
+        font-weight: bold;
+    }
+    
+    .mobinav a.icon {
+        background: #ccc;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 24px;
+        width: 5%;
+    }
+    
+    .mobinav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .logo {
+        background-color: #ccc;
+        color: white;
+        background-image: url(/static/img/bencousinstransp.png);
+        background-repeat: no-repeat;
+        background-position: 10% 0%;
+        background-size: contain;
+    }
+    
+    #hero-unit{
+        margin-top:-28px!important;
+        border-bottom-left-radius:18px;
+        border-bottom-right-radius:18px;
+    }
+
+    #mini-hero-unit{
+        margin-top:-8px!important;
+    }
+    
+    
+    #todays-highlights{
+        border-top:none!important;
+    }
+    
+    #nav-actual{
+        width:89.5%!important;
+        display:none;
+    }
+
+    .half{
+        width: 100%!important;
+    }
+
+    .half .image{
+        width: 80%;
+        overflow: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 3px;
+        border: 1px solid #ccc;
+        background: #fff;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    #body .team-item{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #body .team-item .team-image{
+        width: 100%;
+    }
+
+    #body .team-item .team-image img{
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    #body .team-item .team-info{
+        width: 100%;
+        padding: 0px;
+        margin-top: -5px;
+    }
+
+    #footer{
+        width:90%;
+        margin-bottom:100px;
+    }
+    
+    #footer #links{
+        display: none!important;
+    }
+    
+    #footer #copyright dl{
+        width:100%!important;
+        float:none!important;
+        text-align:right;
+    }
+}
+
+/* 
+    iPhone SE views
+*/
+
+@media screen and (max-width: 320px) {
+    #body .team-item .team-image img{
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,32 @@
+---
+layout: default
+permalink: /about/
+title: About Asperger Media | Autistic. Information Tech.
+---
+<div id="mini-hero-unit">
+    <h1>about asperger media</h1>
+</div>
+<div class="section-light">
+    <h2>our vision</h2>
+    <p>Asperger Media envisions a world where Autistic People are valued contributors to society at large and where they can work and live in a free and open society. 
+        We are dedicated to this goal. </p>
+</div>
+
+<div class="section-light">
+    <h2>our team</h2>
+    <p>The team at Asperger Media are here to help you make the most of your abilities. </p>
+    {% for staff_member in site.staff_members %}
+        <div class="team-item">
+            <div class="team-image">
+                <img src="{{ staff_member.image }}" alt="{{ staff_member.name }} - {{ staff_member.position }}" class="image">
+            </div>
+            <div class="team-info">
+                <h2>{{ staff_member.name }}</h2>
+                <h4>{{ staff_member.position }}</h4>
+                {{ staff_member.content | markdownify }}
+            </div>
+        </div>
+    {% endfor %}
+    
+    <br style="clear: both;">
+</div>

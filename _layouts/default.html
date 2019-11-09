@@ -1,26 +1,122 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/static/css/bdc.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
+<!doctype html>
+<html lang="en-au">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="The Blog of Ben Cousins | Autistic Entrepreneur">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/bdcidau.css" media="screen">
+        <link rel="stylesheet" href="https://use.typekit.net/yua8lnj.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/static/js/moment.min.js"></script>
+        <script type="text/javascript" src="/static/js/livestamp.min.js"></script>
+        <script type="text/javascript" src="/static/js/aspmd.js"></script>
+		<link rel="icon" href="/favicon.ico">
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127035726-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-127035726-1');
+		</script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="bdc-logo">
+				<h1>
+					Ben Cousins - Autistic Entrepreneur
+				</h1>
+            </div>
+		</div>
+        <div id="nav">
+            <ul id="nav-actual">
+                <li>
+                    <a href="/">home</a>
+				</li>
+				<li>
+                    <a href="/about">about</a>
+				</li>
+				<li>
+                    <a href="/blog">blog</a>
+                </li>
+            </div>
+		</div>
+		<!-- Top Navigation Menu -->
+		<div class="mobinav">
+			<a href="/" class="logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ben Cousins</a>
+			<div id="myLinks">
+				<a href="/">home</a>
+				<a href="/about">about</a>
+				<a href="/blog">blog</a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<span style="color:000;">
+					☰
+				</span>
+			</a>
+		</div>
+        <div id="body">
 			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<p>Copyright © 2019 | Ben Cousins</p>
-			</footer>
+		</div>
+		<div id="footer">
+			<div id="links">
+				<dl>
+					
+				</dl>
+				<dl>
+					
+				</dl>
+				<dl>
+					
+				</dl>
+			</div>
+			<div id="copyright">
+				<dl>
+					<dt>asperger.media</dt>
+					<dd>autism. information tech.</dd>
+					<dd>copyright © 2019 asperger media pty ltd</dd>
+					<dd>abn: 75 625 086 455 | acn: 625 086 455</dd>
+					<dd>website developed in-house by <a href="//bdc.id.au" target="_new">ben cousins</a></dd>
+					
+					<dt class="top-padding">social media</dt>
+					<dd>catch up with us on:</dd>
+					<dd>
+						<a href="//fb.me/aspergermedia" target="_new">facebook</a> |
+						<a href="//twitter.com/aspergermedia" target="_new">twitter</a> |
+						<a href="//instagram.com/aspergermedia" target="_new">instagram</a>
+					</dd>
+					
+					<dt class="top-padding">our other sites</dt>
+					<dd>
+						<a href="//aspergers.network">aspergers.network</a>
+					</dd>
+				</dl>
+			</div>
+			<script type="text/javascript">
+				var navTop = $('#nav').offset().top;
+		
+				$(window).scroll(function(){
+					if ($(this).scrollTop() >= navTop) {
+						$('#nav').css('position', 'fixed');
+						$('#nav').css('top', '0');
+					} else {
+						$('#nav').css('position', 'absolute');
+						$('#nav').css('top', '81px');
+					}
+				});
+			</script>
+			<script>
+				function myFunction() {
+					var x = document.getElementById("myLinks");
+					if (x.style.display === "block") {
+					x.style.display = "none";
+					} else {
+					x.style.display = "block";
+					}
+				}
+			</script>
 		</body>
-	</html>
+		</html>
