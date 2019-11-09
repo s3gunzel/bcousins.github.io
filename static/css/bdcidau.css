@@ -27,7 +27,7 @@
     width:80%;
     line-height: 131px;
     float:left;
-    background-image: url(./bencousinstransp.png);
+    background-image: url(/static/img/bencousinstransp.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -619,7 +619,7 @@ iPad Pro 12.5" Landscape
     .logo {
         background-color: #ccc;
         color: white;
-        background-image: url(./bencousinstransp.png);
+        background-image: url(/static/img/bencousinstransp.png);
         background-repeat: no-repeat;
         background-position: 10% 0%;
         background-size: contain;
