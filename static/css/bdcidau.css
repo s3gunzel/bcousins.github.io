@@ -25,17 +25,18 @@
 
 #header #bdc-logo {
     width:80%;
-    line-height: 48px;
+    line-height: 131px;
     float:left;
-    background-image: url(/static/img/bencousinstransp.png);
+    background-image: url(./bencousinstransp.png);
     background-size: contain;
     background-repeat: no-repeat;
-    font-family: 'open sans', sans-serif;
 }
 
-#header #bdc-logo h1{
-    margin-left: 70px;
-    margin-top: 10px;
+#header h1{
+    margin-left: 86px;
+    margin-top: -120px;
+    font-family: 'open sans', sans-serif;
+    float: left;
 }
 
 #header #user-links {
@@ -618,7 +619,7 @@ iPad Pro 12.5" Landscape
     .logo {
         background-color: #ccc;
         color: white;
-        background-image: url(/static/img/bencousinstransp.png);
+        background-image: url(./bencousinstransp.png);
         background-repeat: no-repeat;
         background-position: 10% 0%;
         background-size: contain;
