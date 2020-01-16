@@ -11,4 +11,11 @@ Alas, sometimes, it seems, the need to maintain a piece of software that you fee
 
 And then, as if by chance, I had a brainwave. What if, for some reason that was not completely sane, you decided you'd download Docker, go through the configuration process, set it all up, and *then* try to sort out the issues you've been having for _four_ years! 
 
-Well, I did that. In about three hours, on the evening of December 27, 2019. 
+Well, I did that. In about three hours, on the evening of December 27, 2019. As I tend to be a little on the stupid side, I did not check the website thoroughly and thought that it was "working" (Narrator: It wasn't) and that I could just push it live. 
+
+<div class="embedimg">
+    <img src="/images/screenshot/aspnt/p1i1.jpg" alt="Broken Asperger's Network Website" />
+    <div class="caption">
+        <p>Oh dear...</p>
+    </div>
+</div>
