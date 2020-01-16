@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Asperger's Network 2.0 on PHP 7.3 - Or: How I Learned To Stop Hating Docker. And NginX. And PHP."
+title: "Asperger's Network 2.0 on PHP 7.3"
+subtitle: "Or: How Updating A Software Stack Should Be Done Before The Software Is End Of Life For Two Years!"
 date: 2019-12-28
 hero-image:
 ---
