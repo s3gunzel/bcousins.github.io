@@ -15,8 +15,12 @@ And then, as if by chance, I had a brainwave. What if, for some reason that was 
 Well, I did that. In about three hours, on the evening of December 27, 2019. As I tend to be a little on the stupid side, I did not check the website thoroughly and thought that it was "working" (Narrator: It wasn't) and that I could just push it live. 
 
 <div class="embedimg">
-    <img src="/images/screenshot/aspnt/p1i1.jpg" alt="Broken Asperger's Network Website" />
+    <img src="/images/screenshot/aspnt/p1i1.png" alt="Broken Asperger's Network Website" />
     <div class="caption">
         <p>Oh dear...</p>
     </div>
 </div>
+
+Turns out, I couldn't just push it live. 
+
+The Asperger's Network "app" -- that's what I'm calling it, so, you know... -- it uses a lot of `mysql_scape_string()` to implement backslashes for the parsing engine. At the time, in PHP 5.5, this worked splendidly. It did everything it was supposed to do. 
