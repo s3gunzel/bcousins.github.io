@@ -719,6 +719,10 @@ iPad Pro 12.5" Landscape
         margin-top: -5px;
     }
 
+    .embedimg{
+        width: 80%!important;
+    }
+
     #footer{
         width:90%;
         margin-bottom:100px;

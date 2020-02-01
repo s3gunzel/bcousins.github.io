@@ -5,7 +5,7 @@ subtitle: "Or: How I Seriously Cocked Up A MySQL Installation In My Own Spare Ti
 date: 2020-01-31
 hero-image:
 ---
-A little while ago, it became readily apparent that I was going to have to teach Nicole, herself qualified as a lawyer - and so smarter than I am - how to use a server. This task, when I was given it earlier this week was meant to be simple. The idea was. Spin up a Vultr instance, 
+A little while ago, it became readily apparent that I was going to have to teach Nicole, herself qualified as a lawyer - and so smarter than I am - how to use a server. This task, when I was given it earlier this week was meant to be simple. The idea was. Spin up a 512MB Vultr instance, install your standard LNMP stack (we actually started with Apache, but ¯\_(ツ)_/¯)
 
 <div class="embedimg">
     <img src="/images/blog/teaching-nicole-servers/i1.png" alt="Nicole's Broken Website" />
