@@ -200,24 +200,24 @@
     border-bottom: 1px solid #ccc;
 }
 
-h2{
+#body .section-light h2{
     font-family: 'century-gothic', sans-serif;
     text-align: center;
 }
 
-p {
+#body .section-light p {
     font-family: Helvetica, sans-serif;
 }
 
-ul li {
+#body .section-light ul li {
     font-family: Helvetica, sans-serif;
 }
 
-ul li a:visited{
+#body .section-light ul li a:visited{
     color: #00f;
 }
 
-ol li {
+#body .section-light ol li {
     font-family: Helvetica, sans-serif;
 }
 
