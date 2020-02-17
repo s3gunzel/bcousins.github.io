@@ -209,6 +209,14 @@ p {
     font-family: Helvetica, sans-serif;
 }
 
+ul li {
+    font-family: Helvetica, sans-serif;
+}
+
+ol li {
+    font-family: Helvetica, sans-serif;
+}
+
 .half{
     width:50%;
     float:left;
