@@ -213,6 +213,10 @@ ul li {
     font-family: Helvetica, sans-serif;
 }
 
+ul li a:visited{
+    color: #00f;
+}
+
 ol li {
     font-family: Helvetica, sans-serif;
 }
