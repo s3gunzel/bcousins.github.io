@@ -16,4 +16,4 @@ Until now, Asperger's Network has run on a hacky-copied-from-another-website-and
     </div>
 </div>
 
-The design, I feel, is starting to date. The code almost definitely is ageing. We have multiple dependencies that are stopping us from 
+The design, I feel, is starting to date. The code almost definitely is ageing. I have multiple dependencies that are stopping me from upgrading the site easily, the first one being mcrypt, and I don't want to have to re-hash all my passwords again. 
