@@ -22,11 +22,17 @@ To start: What does the `aspergersnetwork` user need to be able to achieve?
 
 In other words, three tasks. That's it.
 
-You must always remember that Linux runs a bunch of processes under a bunch of different users, and that screwing with who runs what is 100% proven(*) to always cause a bad day. 
+You must always remember that Linux runs a bunch of processes under a bunch of different users, and that screwing with who runs what is 100% proven* to always cause a bad day. <small>* based on a small percentage of gullible SysAdmins making things called "Network Shears". No, I don't know what they are either</small>
 
 <div class="embedimg">
-    <img src="/images/blog/principle-least-privilege/lpi1.png" alt="htop Output" />
+    <a href="https://bdc.id.au/images/blog/principle-least-privilege/lpi1.png" target="_new">
+        <img src="/images/blog/principle-least-privilege/lpi1.png" alt="htop Output" />
+    </a>
     <div class="caption">
         <p>htop Output On Our Development Web Server</p>
     </div>
 </div>
+
+You'll see in the screenshot above our ideal output: The website is running there under its own user. 
+
+So how would we go about attacking this particular issue? 
