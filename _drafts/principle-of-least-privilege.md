@@ -21,3 +21,12 @@ To start: What does the `aspergersnetwork` user need to be able to achieve?
 * service aspergersnetwork restart
 
 In other words, three tasks. That's it.
+
+You must always remember that Linux runs a bunch of processes under a bunch of different users, and that screwing with who runs what is 100% proven(*) to always cause a bad day. 
+
+<div class="embedimg">
+    <img src="/images/screenshot/principle-least-privilege/lpi1.png" alt="htop Output" />
+    <div class="caption">
+        <p>htop Output On Our Development Web Server</p>
+    </div>
+</div>
