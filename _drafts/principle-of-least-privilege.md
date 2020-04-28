@@ -2,7 +2,7 @@
 layout: post
 title: "The Principle of Least Privilege"
 subtitle: "Or: No, I Should Not Have Had To Type A Password For That Command!"
-date: 2020-03-23
+date: 2020-04-28
 hero-image:
 ---
 Linux. It runs servers everywhere. It runs on your phone. It runs the computer I'm using right now (Ok, yeah, you got me. I'm using macOS, but the principles are the same; I can type `sudo reboot`, and watch the computer go down for a restart no matter which console I'm using, for example). 
@@ -36,3 +36,22 @@ You must always remember that Linux runs a bunch of processes under a bunch of d
 You'll see in the screenshot above our ideal output: The website is running there under its own user. 
 
 So how would we go about attacking this particular issue? 
+
+Ideally, the "app" should run as a system service under `system.d`. This would allow the app to restart itself when it crashes. This is achieved by one line: `Restart=always`. The system is then smart enough to restart on its own. Automation: Check. 
+
+Because the app is a system.d service, we should be able to interact with this through the user, without a password so that when our Jenkins instance builds and then deploys the code, we can quickly restart the service to get the freshest build running. Yes, we could technically deploy over the root user, but this would be a violation of the Principle of Least Privilege and would cause all manner of headaches when it chowns files to root. We don't want that. 
+
+Actually, funnily, while I was typing up this blog post I buggered up something fierce. 
+
+<div class="embedimg">
+    <a href="https://bdc.id.au/images/blog/principle-least-privilege/lpi2.png" target="_new">
+        <img src="/images/blog/principle-least-privilege/lpi1.png" alt="Oops." />
+    </a>
+    <div class="caption">
+        <p>Oops. Didn't mean to do that!</p>
+    </div>
+</div>
+
+I failed to use the right path for the app, and then tried to make system.d start an app that doesn't exist. Don't be like me. 
+
+In (this)[] stackoverflow post, it says I should use the 
