@@ -45,7 +45,7 @@ Actually, funnily, while I was typing up this blog post I buggered up something 
 
 <div class="embedimg">
     <a href="https://bdc.id.au/images/blog/principle-least-privilege/lpi2.png" target="_new">
-        <img src="/images/blog/principle-least-privilege/lpi1.png" alt="Oops." />
+        <img src="/images/blog/principle-least-privilege/lpi2.png" alt="Oops." />
     </a>
     <div class="caption">
         <p>Oops. Didn't mean to do that!</p>
