@@ -1,0 +1,11 @@
+I"d<p>A little while ago, it became readily apparent that I was going to have to teach Nicole, herself qualified as a lawyer - and so smarter than I am - how to use a server. This task, when I was given it earlier this week was meant to be simple. The idea was. Spin up a 512MB Vultr instance, install your standard LNMP stack (we actually started with Apache, but ¯\<em>(ツ)</em>/¯)</p>
+
+<div class="embedimg">
+    <img src="/images/blog/teaching-nicole-servers/i1.png" alt="Nicole's Broken Website" />
+    <div class="caption">
+        <p>Oh dear... We have an issue here.</p>
+    </div>
+</div>
+
+<p>I’ve</p>
+:ET
