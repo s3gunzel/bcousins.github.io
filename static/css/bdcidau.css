@@ -91,19 +91,19 @@
     top:81px;
 }
 
-#nav-actual{
-    width:50%;
-    max-width:1190px;
+#header #nav-actual{
+    margin-right: -18%;
     margin-top: -125px;
+    width: 500px;
     float: right;
 }
 
-#nav-actual li{
+#header #nav-actual li{
     list-style-type:none;
     margin-top:0px;
 }
 
-#nav-actual li a{
+#header #nav-actual li a{
     padding:17px;
     color: #000;
     font-size:16pt;
@@ -113,7 +113,7 @@
     font-family: 'century-gothic', sans-serif;
 }
 
-#nav-actual a:hover{
+#header #nav-actual a:hover{
     background-color:#3100BC;
     color: #fff;
 }

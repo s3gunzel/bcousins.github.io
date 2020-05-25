@@ -51,18 +51,17 @@
 			<h2>
 				Autistic Entrepreneur
 			</h2>
-		</div>
-		<ul id="nav-actual">
-			<li>
-				<a href="/">home</a>
-			</li>
-			<li>
-				<a href="/projects">projects</a>
-			</li>
-			<li>
-				<a href="/blog">blog</a>
-			</li>
-		</ul>
+			<ul id="nav-actual">
+				<li>
+					<a href="/">home</a>
+				</li>
+				<li>
+					<a href="/projects">projects</a>
+				</li>
+				<li>
+					<a href="/blog">blog</a>
+				</li>
+			</ul>
 		</div>
         <div id="navbar">
 			&nbsp;
@@ -120,15 +119,15 @@
 				</dl>
 			</div>
 			<script type="text/javascript">
-				var navTop = $('#nav').offset().top;
+				var navTop = $('#navbar').offset().top;
 		
 				$(window).scroll(function(){
 					if ($(this).scrollTop() >= navTop) {
-						$('#nav').css('position', 'fixed');
-						$('#nav').css('top', '0');
+						$('#navbar').css('position', 'fixed');
+						$('#navbar').css('top', '0');
 					} else {
-						$('#nav').css('position', 'absolute');
-						$('#nav').css('top', '81px');
+						$('#navbar').css('position', 'absolute');
+						$('#navbar').css('top', '81px');
 					}
 				});
 			</script>
