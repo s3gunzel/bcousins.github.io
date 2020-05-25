@@ -34,7 +34,14 @@
 
 #header h1{
     margin-left: 86px;
-    margin-top: -120px;
+    margin-top: -127px;
+    font-family: 'open sans', sans-serif;
+    float: left;
+}
+
+#header h2{
+    margin-left: 86px;
+    margin-top: -88px;
     font-family: 'open sans', sans-serif;
     float: left;
 }
