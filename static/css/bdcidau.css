@@ -25,23 +25,23 @@
 
 #header #bdc-logo {
     width:80%;
-    line-height: 131px;
+    line-height: 75px;
     float:left;
-    background-image: url(/static/img/bencousinstransp.png);
+    background-image: url(/static/img/bencousinstranspshort.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #header h1{
     margin-left: 86px;
-    margin-top: -127px;
+    margin-top: -71px;
     font-family: 'open sans', sans-serif;
     float: left;
 }
 
 #header h2{
     margin-left: 86px;
-    margin-top: -88px;
+    margin-top: -34px;
     font-family: 'open sans', sans-serif;
     float: left;
 }
@@ -82,7 +82,7 @@
 
 #navbar{
     width: 160%;
-    height: 60px;
+    height: 10px;
     margin-left: -965px;
     background-color:#aaa;
     color:#000;
@@ -93,7 +93,7 @@
 
 #header #nav-actual{
     margin-right: -18%;
-    margin-top: -125px;
+    margin-top: -70px;
     width: 500px;
     float: right;
 }
@@ -130,7 +130,7 @@
     width:80%;
     max-width:1150px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 30px;
     border-bottom: 1px solid #ccc;
 }
 
