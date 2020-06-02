@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Asperger's Network 3.0 Redevelopment"
-subtitle: "Or: I Had A Bright Idea While Stuck In Bed With The Flu And Am Now Regretting It!"
+subtitle: "Or: How I Had A Bright Idea While Stuck In Bed With The Flu And Am Now Regretting It!"
 date: 2020-03-13
 hero-image:
 ---
