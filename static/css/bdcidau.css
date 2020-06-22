@@ -441,9 +441,9 @@
     }
 
     #navbar{ 
-        width: 1367px;
-        position: realative;
-        margin-left: 0px;
+        width: 1367px!important;
+        position: relative!important;
+        margin-left: 0px!important;
     }
     
     #nav-actual{
