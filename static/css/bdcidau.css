@@ -86,6 +86,7 @@
     background-color:#aaa;
     color:#000;
     top:81px;
+    position: absolute;
 }
 
 #header #nav-actual{
