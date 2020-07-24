@@ -638,8 +638,8 @@ iPad Pro 12.5" Landscape
         display:none;
     }
 
-    #nav{
-        display:none;
+    #navbar{
+        display:none!important;
     }
 
     .mobinav {
