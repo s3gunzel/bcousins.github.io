@@ -1,9 +1,14 @@
-name: The Blog of Ben Cousins | Austistic. Entrepreneur. Train Lover. Lost.
+name: Ben Cousins | Autistic Entrepreneur
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:title
 collections:
   staff_members:
     output: true
   drafts:
     output: true
 defaults:
+    scope:
+      path: ""
+      type: drafts
+    values:
+      layout: draft

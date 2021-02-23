@@ -3,7 +3,6 @@ layout: feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
 	<title>Asperger Media Blog</title>
 	<link href="https://asperger.media/blog/atom.xml" rel="self"/>
 	<link href="https://asperger.media/blog"/>
@@ -13,7 +12,6 @@ layout: feed
 		<name>Asperger Media Pty Ltd</name>
 		<email>hello@asperger.media</email>
 	</author>
-
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
