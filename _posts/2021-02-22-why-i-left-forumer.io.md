@@ -6,6 +6,7 @@ date: 2021-02-22
 hero-image:
 meta-title: "Why I left Forumer.io - From My Side"
 meta-descr: "A Warning To Everyone, But Especially Me"
+published: true
 ---
 
 Forumer.io was, I thought, a pretty good website. That's how it always starts, isn't it? You think that a new website can really be something and then the owner shits on you from a great height. 
