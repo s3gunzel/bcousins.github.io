@@ -335,6 +335,14 @@
     text-align: center;
 }
 
+#body p.meta{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#body .post{
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 /*
  Footer styles
